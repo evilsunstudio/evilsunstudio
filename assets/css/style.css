@@ -28,16 +28,16 @@
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
 @font-face {
-  font-family: 'DM Serif Text', serif;
-  src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+  font-family: 'Playfair Display', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap");
 }
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap");
 }
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap');
 </style>
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
@@ -223,7 +223,7 @@ h1 {
   font-family:'Roboto', sans-serif;
   color:black;
   margin-top:0px;
-  font-family:'DM Serif Text', serif;
+  font-family:'Playfair Display', serif;
   color: black;
   margin-top: 0px;
   font-style: normal;
@@ -250,7 +250,7 @@ p {
   color: #000000;
   font-size: 16px;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 250 px;
   line-height: 1.4;
   font-weight: 300;
 }
@@ -3078,12 +3078,13 @@ hr {
 
 /* line 979, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-tittle2 p {
-  color: #fff;
+  color: black;
 }
 
 /* line 982, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-tittle2 h2 {
-  color: #fff;
+  color: black
+  ;
   font-size: 80px;
   font-weight: 300;
 }
@@ -3275,12 +3276,12 @@ hr {
 
 /* line 54, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
-  color: #0c5e509f;
+  color: black;
   font-weight: 400;
   padding: 39px 19px;
   display: block;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -3301,7 +3302,7 @@ hr {
   content: "";
   width: 58px;
   height: 2px;
-  background: #0c5e509f;
+  background: white;
   bottom: 26px;
   margin: 0 auto;
   left: 3px;
@@ -3472,7 +3473,7 @@ hr {
 
 /* line 23, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area {
-  background: #0c5e509f;
+  background: white;
 }
 
 /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
@@ -3505,7 +3506,7 @@ hr {
 .slider-area .hero__caption p {
   color: black;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 530;
   padding-right: 50px;
 }
 
@@ -3570,7 +3571,7 @@ hr {
 .slider-area .hero__caption h1 {
   font-size: 85px;
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: initial;
   color: black;
   line-height: 1;
   margin-bottom: 39px;
@@ -3587,7 +3588,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 137px;
+    font-size: 150px;
   }
 }
 
@@ -3610,9 +3611,9 @@ hr {
 /* line 99, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
   color: black;
-  font-size: 60px;
+  font-size: 150px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 900;
   margin-bottom: 30px;
   display: block;
 }
@@ -3980,7 +3981,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about {
-  background: #670000;
+  background: white;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
