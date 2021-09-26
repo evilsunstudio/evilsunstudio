@@ -27,7 +27,15 @@
 */
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet");
+@font-face {
+  font-family: 'DM Serif Text', serif;
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+</style>
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
   background: #0c5e509f
@@ -102,7 +110,7 @@
   color: black !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "DM Serif Text", Serif;
+  font-family: 'DM Serif Text', serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -209,10 +217,10 @@ body {
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 h1 {
-  font-family: "DM Serif Text";
+  font-family:'DM Serif Text', serif;
   color:black;
   margin-top:0px;
-  font-family: "DM Serif Text";
+  font-family:'DM Serif Text', serif;
   color: black;
   margin-top: 0px;
   font-style: normal;
@@ -6597,7 +6605,7 @@ sup,
 sub,
 u,
 del {
-  color: #1f2b7b;
+  color: black;
 }
 
 /* line 95, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
@@ -6702,7 +6710,7 @@ del {
 
 /* line 167, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.default {
-  color: #415094;
+  color: black;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
@@ -6729,28 +6737,28 @@ del {
 /* line 185, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #1f2b7b;
+  background: black;
   border: 1px solid transparent;
 }
 
 /* line 189, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary:hover {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: black;
+  border: 1px solid black;
   background: #fff;
 }
 
 /* line 195, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary-border {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: black;
+  border: 1px solid black;
   background: #fff;
 }
 
 /* line 199, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #1f2b7b;
+  background: black;
   border: 1px solid transparent;
 }
 
