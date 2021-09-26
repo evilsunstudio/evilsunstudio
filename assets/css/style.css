@@ -27,7 +27,7 @@
 */
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet");
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
   background: #0c5e509f
@@ -102,7 +102,7 @@
   color: black !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Transitional", sans-serif;
+  font-family: "DM Serif Text", Serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -208,7 +208,18 @@ body {
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
-h1,
+h1 {
+  font-family: "DM Serif Text";
+  color:black;
+  margin-top:0px;
+  font-family: "DM Serif Text";
+  color: black;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal;
+}
+
 h2,
 h3,
 h4,
@@ -3022,7 +3033,7 @@ hr {
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 22px;
-  color: #670000;
+  color: black;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3387,7 +3398,7 @@ hr {
 
 /* line 165, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #670000 !important;
+  background-color: black!important;
 }
 
 /* line 169, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -3398,7 +3409,7 @@ hr {
 /* line 172, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #670000;
+  color: black;
 }
 
 /* line 176, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -3531,14 +3542,12 @@ hr {
 
 /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p a {
-  color: #670000;
-  text-decoration: underline !important;
+  color: black;
 }
 
 /* line 66, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p a b {
-  color: #670000;
-  text-decoration: underline !important;
+  color: black;
 }
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
@@ -3548,10 +3557,10 @@ hr {
 
 /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
-  font-size: 280px;
-  font-weight: 300;
+  font-size: 85px;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #670000;
+  color: black;
   line-height: 1;
   margin-bottom: 39px;
   margin-bottom: 39px;
@@ -3560,7 +3569,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 185px;
+    font-size: 80px;
   }
 }
 
@@ -3761,7 +3770,7 @@ hr {
 
 /* line 44, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
 .about-area .about-caption p {
-  font-size: 16px;
+  font-size: 32px;
   line-height: 1.6;
   margin-bottom: 35px;
   padding-right: 50px;
