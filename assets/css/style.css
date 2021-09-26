@@ -29,6 +29,9 @@
 /*-------------   Color Variable  --------------*/
 @font-face {
   font-family: 'DM Serif Text', serif;
+  src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+}
+@font-face {
   font-family: 'Roboto', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
 }
@@ -209,7 +212,7 @@
 /* 1. Theme default css */
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -217,7 +220,7 @@ body {
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 h1 {
-  font-family:'DM Serif Text', serif;
+  font-family:'Roboto', sans-serif;
   color:black;
   margin-top:0px;
   font-family:'DM Serif Text', serif;
@@ -233,8 +236,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
-  color: #670000;
+  font-family: 'Roboto', sans-serif;
+  color: black;
   margin-top: 0px;
   font-style: normal;
   font-weight: 400;
@@ -243,7 +246,7 @@ h6 {
 
 /* line 24, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000000;
   font-size: 16px;
   line-height: 30px;
@@ -3500,7 +3503,7 @@ hr {
 
 /* line 36, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
-  color: #670000;
+  color: black;
   font-size: 30px;
   font-weight: 300;
   padding-right: 50px;
@@ -3523,7 +3526,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 36, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.2;
   }
 }
@@ -3577,7 +3580,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 80px;
+    font-size: 100px;
   }
 }
 
