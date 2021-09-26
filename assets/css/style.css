@@ -3050,7 +3050,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-tittle h2 {
-    font-size: 41px;
+    font-size: 80px;
   }
 }
 
@@ -3818,21 +3818,21 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area .about-img {
-    padding-top: 50px;
+    padding-top: 95px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area .about-img {
-    padding-top: 50px;
+    padding-top: 95px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area .about-img {
-    padding-top: 50px;
+    padding-top: 95px;
   }
 }
 
@@ -4342,12 +4342,14 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-wrappr {
-  background: #670000;
+  background: black
+  
+;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-wrappr .form-wrapper input {
-  border: 1px solid #853023;
+  border: 1px solid white;
   height: 50px;
   width: 100%;
   padding: 10px 25px;
