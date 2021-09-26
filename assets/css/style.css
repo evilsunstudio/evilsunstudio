@@ -236,7 +236,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: black;
   margin-top: 0px;
   font-style: normal;
@@ -3043,7 +3043,7 @@ hr {
   display: block;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 22px;
+  margin-bottom: 60px;
   color: black;
 }
 
@@ -3713,7 +3713,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
 
@@ -3784,7 +3784,7 @@ hr {
 .about-area .about-caption p {
   font-size: 32px;
   line-height: 1.6;
-  margin-bottom: 35px;
+  margin-bottom: 95px;
   padding-right: 50px;
   font-weight: 300;
 }
