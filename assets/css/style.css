@@ -3099,7 +3099,7 @@ hr {
 /* line 992, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .small-tittle h4 {
   color: white;
-  font-size: 18px;
+  font-size: 60px;
   font-weight: 300;
 }
 
@@ -3683,7 +3683,7 @@ hr {
 
 /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .hero-area2 .hero-cap h2 {
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 300;
   text-transform: initial;
 }
@@ -4507,7 +4507,7 @@ hr {
   display: inline-block;
   text-align: center;
   margin-right: 8px;
-  background: white;
+  background: ;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5366,7 +5366,7 @@ hr {
 
 /* line 742, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
 .blog_right_sidebar .widget_title {
-  font-size: 20px;
+  font-size: 60px;
   margin-bottom: 40px;
 }
 
