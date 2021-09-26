@@ -248,7 +248,7 @@ h6 {
 p {
   font-family: 'Roboto', sans-serif;
   color: #000000;
-  font-size: 16px;
+  font-size: 34px;
   line-height: 30px;
   margin-bottom: 250 px;
   line-height: 1.4;
@@ -2818,38 +2818,38 @@ hr {
 @media (max-width: 575px) {
   /* line 810, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
 /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-padding40 {
-  padding-top: 140px;
-  padding-bottom: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 1px;
+    padding-bottom: 10px;
   }
 }
 
@@ -4507,7 +4507,7 @@ hr {
   display: inline-block;
   text-align: center;
   margin-right: 8px;
-  background: ;
+  background: none;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
